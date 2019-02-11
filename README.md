@@ -13,3 +13,5 @@ The mouse is used primarily in FSS and DSS modes.
 ***MIDDLE BTN*** - Exit mode
 
 ***SCROLL WHEEL*** - Stepped zoom (DSS)
+
+For this to work without mapping conflicts, make sure your DSS is set to fire group 1.
