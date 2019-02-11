@@ -14,6 +14,8 @@ The mouse is used primarily in FSS and DSS modes.
 
 ***RIGHT BTN*** - Zoom out (FSS) / Toggle planet view (FSS)
 
+***LEFT+RIGHT BTN*** - FSS honk
+
 ***MIDDLE BTN*** - Exit mode
 
 ***SCROLL WHEEL*** - Stepped zoom (DSS)
