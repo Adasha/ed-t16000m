@@ -1,4 +1,4 @@
-Bindings for Thrustmaster T.16000M HOTAS and mouse in Elite: Dangerous
+Bindings for Thrustmaster T.16000M HOTAS and mouse in Elite: Dangerous 3.3
 
 ![T.16000M HOTAS bindings](https://github.com/Adasha/ed-t16000m/blob/master/EDRefCard/fcewtw-t16000mfcs.jpg)
 
