@@ -171,7 +171,7 @@
 	</SetSpeedMinus25>
 	<SetSpeedZero>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_4">
-			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_X" />
 	</SetSpeedZero>
@@ -185,7 +185,7 @@
 	</SetSpeed50>
 	<SetSpeed75>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_5">
-			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed75>
@@ -289,13 +289,13 @@
 	</HyperSuperCombination>
 	<Supercruise>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_4">
-			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</Supercruise>
 	<Hyperspace>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_5">
-			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</Hyperspace>
@@ -312,33 +312,45 @@
 	</OrbitLinesToggle>
 	<SelectTarget>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Right" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000MTHROTTLE" Key="Joy_8">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
+		</Secondary>
 	</SelectTarget>
 	<CycleNextTarget>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Down" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000MTHROTTLE" Key="Joy_9">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
+		</Secondary>
 	</CycleNextTarget>
 	<CyclePreviousTarget>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Up" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000MTHROTTLE" Key="Joy_7">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
+		</Secondary>
 	</CyclePreviousTarget>
 	<SelectHighestThreat>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Right">
 			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000MTHROTTLE" Key="Joy_8">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+		</Secondary>
 	</SelectHighestThreat>
 	<CycleNextHostileTarget>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Down">
 			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000MTHROTTLE" Key="Joy_9">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+		</Secondary>
 	</CycleNextHostileTarget>
 	<CyclePreviousHostileTarget>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Up">
 			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000MTHROTTLE" Key="Joy_7">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+		</Secondary>
 	</CyclePreviousHostileTarget>
 	<TargetWingman0>
 		<Primary Device="T16000M" Key="Joy_13" />
@@ -368,13 +380,19 @@
 		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Down">
 			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000MTHROTTLE" Key="Joy_9">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+		</Secondary>
 	</CycleNextSubsystem>
 	<CyclePreviousSubsystem>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Up">
 			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000MTHROTTLE" Key="Joy_7">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+		</Secondary>
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Left" />
@@ -634,21 +652,25 @@
 	<MouseHeadlookInvert Value="0" />
 	<MouseHeadlookSensitivity Value="0.50000000" />
 	<HeadlookDefault Value="1" />
-	<HeadlookIncrement Value="0.00000000" />
+	<HeadlookIncrement Value="0.33333334" />
 	<HeadlookMode Value="Bindings_HeadlookModeDirect" />
 	<HeadlookResetOnToggle Value="1" />
-	<HeadlookSensitivity Value="1.00000000" />
+	<HeadlookSensitivity Value="0.28706521" />
 	<HeadlookSmoothing Value="1" />
 	<HeadLookReset>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookReset>
 	<HeadLookPitchUp>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_11">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookPitchUp>
 	<HeadLookPitchDown>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_13">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookPitchDown>
 	<HeadLookPitchAxisRaw>
@@ -657,11 +679,15 @@
 		<Deadzone Value="0.00000000" />
 	</HeadLookPitchAxisRaw>
 	<HeadLookYawLeft>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_14">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookYawLeft>
 	<HeadLookYawRight>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_12">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookYawRight>
 	<HeadLookYawAxis>
