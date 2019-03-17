@@ -159,7 +159,9 @@
 	</BackwardKey>
 	<ThrottleIncrement Value="0.00000000" />
 	<SetSpeedMinus100>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_4">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_10" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus100>
 	<SetSpeedMinus75>
@@ -171,7 +173,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus50>
 	<SetSpeedMinus25>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_5">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_10" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus25>
 	<SetSpeedZero>
@@ -883,7 +887,7 @@
 	<MouseTurretYMode Value="Bindings_MousePitch" />
 	<MouseTurretYDecay Value="1" />
 	<BuggyTurretYawAxisRaw>
-		<Binding Device="T16000MTHROTTLE" Key="Joy_XAxis" />
+		<Binding Device="T16000M" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretYawAxisRaw>
@@ -896,8 +900,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretYawRightButton>
 	<BuggyTurretPitchAxisRaw>
-		<Binding Device="T16000MTHROTTLE" Key="Joy_YAxis" />
-		<Inverted Value="1" />
+		<Binding Device="T16000M" Key="Joy_YAxis" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretPitchAxisRaw>
 	<BuggyTurretPitchUpButton>
@@ -918,7 +922,7 @@
 	</DriveSpeedAxis>
 	<BuggyThrottleRange Value="Bindings_BuggyThrottleForewardOnly" />
 	<BuggyToggleReverseThrottleInput>
-		<Primary Device="T16000MTHROTTLE" Key="Joy_1" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_10" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</BuggyToggleReverseThrottleInput>
@@ -1163,15 +1167,15 @@
 		</Secondary>
 	</PhotoCameraToggle_Buggy>
 	<VanityCameraScrollLeft>
-		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Up" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_7" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraScrollLeft>
 	<VanityCameraScrollRight>
-		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Down" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_9" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraScrollRight>
 	<ToggleFreeCam>
-		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Right" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_8" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleFreeCam>
 	<VanityCameraOne>
@@ -1224,39 +1228,39 @@
 	</FreeCamSpeedDec>
 	<MoveFreeCamY>
 		<Binding Device="T16000MTHROTTLE" Key="Joy_ZAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamY>
 	<ThrottleRangeFreeCam Value="Bindings_ThrottleForewardOnlyFreeCam" />
 	<ToggleReverseThrottleInputFreeCam>
-		<Primary Device="T16000MTHROTTLE" Key="Joy_1" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_10" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleReverseThrottleInputFreeCam>
 	<MoveFreeCamForward>
-		<Primary Device="T16000MTHROTTLE" Key="Joy_8" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Right" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MoveFreeCamForward>
 	<MoveFreeCamBackwards>
-		<Primary Device="T16000MTHROTTLE" Key="Joy_10" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Left" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MoveFreeCamBackwards>
 	<MoveFreeCamX>
-		<Binding Device="T16000MTHROTTLE" Key="Joy_RZAxis" />
+		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamX>
 	<MoveFreeCamRight>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Down" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MoveFreeCamRight>
 	<MoveFreeCamLeft>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Up" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MoveFreeCamLeft>
 	<MoveFreeCamZ>
-		<Binding Device="T16000MTHROTTLE" Key="Joy_YAxis" />
-		<Inverted Value="1" />
+		<Binding Device="T16000MTHROTTLE" Key="Joy_RZAxis" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamZ>
 	<MoveFreeCamUpAxis>
@@ -1284,7 +1288,7 @@
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</PitchCamera>
-	<FreeCamMouseSensitivity Value="5.00000000" />
+	<FreeCamMouseSensitivity Value="0.10000000" />
 	<FreeCamMouseYDecay Value="1" />
 	<PitchCameraUp>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1338,27 +1342,31 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</FixCameraWorldToggle>
 	<QuitCamera>
-		<Primary Device="T16000M" Key="Joy_2" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_10">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
+		</Primary>
+		<Secondary Device="T16000MTHROTTLE" Key="Joy_10">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+		</Secondary>
 	</QuitCamera>
 	<ToggleAdvanceMode>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_6" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleAdvanceMode>
 	<FreeCamZoomIn>
-		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Right" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_12" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FreeCamZoomIn>
 	<FreeCamZoomOut>
-		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Left" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_14" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FreeCamZoomOut>
 	<FStopDec>
-		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Up" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_11" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FStopDec>
 	<FStopInc>
-		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Down" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_13" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FStopInc>
 	<CommanderCreator_Undo>
