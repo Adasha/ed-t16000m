@@ -372,7 +372,9 @@
 		<Secondary Device="Keyboard" Key="Key_Numpad_Enter" />
 	</SelectTargetsTarget>
 	<WingNavLock>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_10">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+		</Primary>
 		<Secondary Device="Keyboard" Key="Key_Numpad_Decimal" />
 	</WingNavLock>
 	<CycleNextSubsystem>
@@ -388,11 +390,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
-		<Primary Device="T16000MTHROTTLE" Key="Joy_10">
-			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
+		<Primary Device="T16000M" Key="Joy_10">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_1" />
 		</Primary>
 		<Secondary Device="T16000MTHROTTLE" Key="Joy_10">
-			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
 		</Secondary>
 	</TargetNextRouteSystem>
 	<PrimaryFire>
@@ -407,13 +409,13 @@
 		<Primary Device="T16000M" Key="Joy_POV1Right">
 			<Modifier Device="T16000MTHROTTLE" Key="Joy_1" />
 		</Primary>
-		<Secondary Device="Mouse" Key="Pos_Mouse_ZAxis" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
 		<Primary Device="T16000M" Key="Joy_POV1Left">
 			<Modifier Device="T16000MTHROTTLE" Key="Joy_1" />
 		</Primary>
-		<Secondary Device="Mouse" Key="Neg_Mouse_ZAxis" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
 		<Primary Device="T16000M" Key="Joy_1">
@@ -807,11 +809,11 @@
 		<Deadzone Value="0.00000000" />
 	</SteeringAxis>
 	<SteerLeftButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Neg_Joy_RZAxis" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SteerLeftButton>
 	<SteerRightButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Pos_Joy_RZAxis" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SteerRightButton>
 	<BuggyRollAxisRaw>
@@ -841,17 +843,17 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyPitchDownButton>
 	<VerticalThrustersButton>
-		<Primary Device="T16000MTHROTTLE" Key="Joy_4" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Up" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</VerticalThrustersButton>
 	<BuggyPrimaryFireButton>
 		<Primary Device="T16000M" Key="Joy_1" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Mouse_1" />
 	</BuggyPrimaryFireButton>
 	<BuggySecondaryFireButton>
 		<Primary Device="T16000M" Key="Joy_2" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Mouse_2" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_5" />
@@ -863,18 +865,18 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadlightsBuggyButton>
 	<ToggleBuggyTurretButton>
-		<Primary Device="T16000M" Key="Joy_4" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleBuggyTurretButton>
 	<BuggyCycleFireGroupNext>
-		<Primary Device="T16000M" Key="Joy_4">
-			<Modifier Device="T16000MTHROTTLE" Key="Joy_3" />
+		<Primary Device="T16000M" Key="Joy_POV1Right">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_1" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_PageUp" />
 	</BuggyCycleFireGroupNext>
 	<BuggyCycleFireGroupPrevious>
-		<Primary Device="T16000M" Key="Joy_4">
-			<Modifier Device="T16000MTHROTTLE" Key="Joy_2" />
+		<Primary Device="T16000M" Key="Joy_POV1Left">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_1" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_PageDown" />
 	</BuggyCycleFireGroupPrevious>
@@ -912,7 +914,7 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretPitchDownButton>
-	<BuggyTurretMouseSensitivity Value="2.91746187" />
+	<BuggyTurretMouseSensitivity Value="1.27505910" />
 	<BuggyTurretMouseDeadzone Value="0.00000000" />
 	<BuggyTurretMouseLinearity Value="1.66262460" />
 	<DriveSpeedAxis>
@@ -924,7 +926,7 @@
 	<BuggyToggleReverseThrottleInput>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_10" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="1" />
+		<ToggleOn Value="0" />
 	</BuggyToggleReverseThrottleInput>
 	<BuggyThrottleIncrement Value="0.00000000" />
 	<IncreaseSpeedButtonMax>
@@ -1228,7 +1230,7 @@
 	</FreeCamSpeedDec>
 	<MoveFreeCamY>
 		<Binding Device="T16000MTHROTTLE" Key="Joy_ZAxis" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamY>
 	<ThrottleRangeFreeCam Value="Bindings_ThrottleForewardOnlyFreeCam" />
@@ -1489,7 +1491,9 @@
 		</Secondary>
 	</ExplorationFSSDiscoveryScan>
 	<ExplorationFSSQuit>
-		<Primary Device="T16000M" Key="Joy_2" />
+		<Primary Device="T16000M" Key="Joy_5">
+			<Modifier Device="T16000MTHROTTLE" Key="Joy_1" />
+		</Primary>
 		<Secondary Device="Mouse" Key="Mouse_3" />
 	</ExplorationFSSQuit>
 	<FSSMouseXMode Value="Bindings_MouseYaw" />
